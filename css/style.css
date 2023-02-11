@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+header{
+    background: transparent;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 30px;
+}
+.navbar-brand img{width: 140%;}
+.nav-link{
+
+margin-right: 30px;
+
+color: #fff;
+
+font-size: 20px;
+}
+.learn-more{
+
+background: red;
+
+padding: 10px 30px;
+
+border-radius: 37px;
+
+color: #fff;
+
+font-size: 20px;
+
+font-weight: 700;
+
+transition: .4s all ease-in-out;
+}
+.learn-more:hover{
+    background: rgba(255, 0, 0, 0.579);
+    color: #fff;
+}
+.banner{
+    position: relative;
+    min-height: 125vh;
+}
+.banner h4{
+    
+color: #fff;
+    
+text-align: center;
+    
+margin-top: 31%;
+}
+.banner h1{
+    
+color: #fff;
+    
+text-align: center;
+    
+font-size: 100px;
+}
+.banner a{margin: 0;
+    margin-left: 44%;
+    margin-top: 40px;
+}
+.banner i{
+    color: #fff;
+    font-size: 35px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+    transform: translateX(-50%);
+}
+@keyframes updown{
+    0%
+    {
+        top:87%;
+    }
+    100%{
+        top:92%;
+    }
+}
+.about{
+
+background: #f7f7de;
+
+padding-bottom: 100px;
+}
+.about h4{margin-top: 200px;text-align: center;}
+.about h1{
+    
+text-align: center;
+    
+margin-top: 20px;
+    
+font-size: 50px;
+}
+.about p{
+    
+text-align: center;
+    
+font-size: 20px;
+    
+line-height: 38px;
+    
+margin: 45px;
+}
+.about a{
+    margin-left: 44%;
+    margin-bottom: 26px;
+}
+.services{
+    background-image: url(../images/services.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 130px 0;
+}
+.services h1{
+
+font-weight: 700;
+
+padding-left: 141px;
+}
+.services h2{
+
+font-weight: 700;
+
+line-height: 50px;
+}
+.services h3{
+
+font-size: 36px;
+
+font-weight: 700;
+}
+.services span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: #fff;
+
+margin: 30px 0;
+}
+.services p{
+
+line-height: 33px;
+
+font-weight: 500;
+
+color: #fff;
+}
+.services h4{
+
+}
+.projects{
+
+padding: 100px;
+
+background: #e9ecef;
+}
+.projects h4{
+    
+text-align: center;
+    
+font-weight: 700;
+}
+.projects h1{
+    
+text-align: center;
+    
+font-weight: 700;
+    
+margin-bottom: 40px;
+}
+.projects h2{
+    
+margin-top: 20px;
+    
+font-weight: 700;
+    
+margin-bottom: 20px;
+    
+font-size: 28px;
+}
+.projects a{
+    margin-left: 35px;
+}
+.project-item{
+
+margin-bottom: 150px;
+}
+.project-item img{
+    
+min-height: 60vh;
+}
+.project-item h1{
+    
+}
+.project-item p{
+    
+line-height: 40px;
+    
+font-size: 20px;
+}
+.projects h3{
+    font-weight: 700;
+}
+footer{
+    background:#011627;
+    color: #fff;
+    padding-top: 112px;
+}
+footer h4{
+
+margin-bottom: 30px;
+
+font-size: 30px;
+}
+footer p{
+    
+line-height: 35px;
+    
+font-size: 18px;
+    
+margin-bottom: 35px;
+}
+footer ul{
+    
+list-style: none;
+    
+padding: 0;
+}
+footer ul li{
+    
+margin-bottom: 10px;
+}
+footer ul li a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+font-size: 20px;
+transition: .5s all ease-in-out;
+}
+footer ul li a:hover{
+    color: red;
+}
+.hg{
+    
+margin-top: 100px;
+}
+.gh p{
+    
+text-align: end;
+}
+.ta{
+    align-items: center;
+}
